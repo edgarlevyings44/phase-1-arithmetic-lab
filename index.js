@@ -3,10 +3,9 @@
 
 const num1 = 31;
 const num2 = 2;
-const multiply = num1 * num2
+const multiply = num1 * num2;
 
-const random = Number.isSafeInteger(5);
-console.log(random);
+let random = Math.ceil(Math.random());
 
 const num3 = 2;
 const num4 = 2;
